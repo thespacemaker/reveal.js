@@ -1553,3 +1553,15 @@ body {
 
 .zoomed .reveal .roll span:after {
   visibility: hidden; }
+
+  #gottaGoLeft {
+    position: relative; /* has to be position relative for left to work, or you could just do margin-left: -50px; too */
+    left: -180px;
+    height: 10px;
+    background-color: #fff;
+    width: 120%;
+  }
+
+  #noBorders {
+    border: 0px;
+  }
